@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.container{
+#grid{
 	display:grid;
 	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
 	grid-template-rows:124px 124px 124px 124px 12px;
@@ -8,25 +8,25 @@
 .box{
   color:white;
 	font-size:4vw;
-  background-color:green;
+   background-color: rgb(0, 128, 0);
 }
 .first{
 	grid-column: span 4;
-	background-color:green;
+	 background-color: rgb(0, 128, 0);
 }
 .second{
 	grid-row:span 4;
-	background-color:green;
+	 background-color: rgb(0, 128, 0);
 }
 .fourth{
 	grid-column:span 2;
-	background-color:green;
+	 background-color: rgb(0, 128, 0);
 }
 .fifth{
 	grid-column:span 2;
-	background-color:green;
+ background-color: rgb(0, 128, 0);
 }
 .tenth{
 	grid-column:span 3;
-	background-color:green;
+	 background-color: rgb(0, 128, 0);
 }
