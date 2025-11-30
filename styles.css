@@ -1,32 +1,36 @@
-/*  your css code here. If applicable */
-#grid{
-	display:grid;
-	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
-	grid-template-rows:124px 124px 124px 124px 12px;
-	gap:5px;
+#grid {
+  display: grid;
+  grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+  grid-template-rows: 124px 124px 124px 124px 124px;
+  gap: 5px;
 }
-.box{
-  color:white;
-	font-size:4vw;
-   background-color: rgb(0, 128, 0);
+
+.box {
+  color: white;
+  font-size: 4vw;
+  background-color: rgb(0, 128, 0); 
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
-.first{
-	grid-column: span 4;
-	 background-color: rgb(0, 128, 0);
+
+/* Box spans */
+.first {
+  grid-column: span 4 / auto;
 }
-.second{
-	grid-row:span 4;
-	 background-color: rgb(0, 128, 0);
+
+.second {
+  grid-row: span 4 / auto;
 }
-.fourth{
-	grid-column:span 2;
-	 background-color: rgb(0, 128, 0);
+
+.fourth {
+  grid-column: span 2 / auto;
 }
-.fifth{
-	grid-column:span 2;
- background-color: rgb(0, 128, 0);
+
+.fifth {
+  grid-column: span 2 / auto;
 }
-.tenth{
-	grid-column:span 3;
-	 background-color: rgb(0, 128, 0);
+
+.tenth {
+  grid-column: span 3 / auto;
 }
