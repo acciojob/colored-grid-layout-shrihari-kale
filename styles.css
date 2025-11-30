@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-row:repeat(5,1fr);
+	gap:5px;
+}
+.box{
+  color:white;
+	font-size:4vw;
+  background-color:green;
+}
+.first{
+	grid-column: span 4;
+	background-color:green;
+}
+.second{
+	grid-row:span 4;
+	background-color:green;
+}
+.fourth{
+	grid-column:span 2;
+	background-color:green;
+}
+.fifth{
+	grid-column:span 2;
+	background-color:green;
+}
+.tenth{
+	grid-column:span 3;
+	background-color:green;
+}
