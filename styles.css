@@ -1,8 +1,8 @@
 /*  your css code here. If applicable */
 .container{
 	display:grid;
-	grid-template-columns:repeat(4,1fr);
-	grid-template-row:repeat(5,1fr);
+	grid-template-columns:124px 124px 124px 124px;
+	grid-template-row:124px 124px 124px 124px 12px;
 	gap:5px;
 }
 .box{
